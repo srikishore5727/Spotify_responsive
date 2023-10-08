@@ -201,12 +201,12 @@ body{
 }
 #song-play{
     position:sticky;
-    bottom: 0;
+    bottom: -2%;
     height: 80px;
-    /* border: 2px solid red; */
     display: flex;
     background-color: #181818;
 }
+
 #playing-song{
     margin-top: 8px;
     margin-left: 20px;
@@ -242,10 +242,18 @@ body{
 }
 
 #control-option{
-    height: 25px;
-    margin-left: 180px;
-    margin-top: 30px;
+
+    height: 23px;
+    margin:  30px 130px;
+    /* border: 2px solid yellow; */
+    /* margin-left: 150px;
+    margin-top: 30px; */
 }
+#options{
+    /* border: 1px solid red; */
+    margin-bottom: 0%;
+}
+
 .menus{
     display: flex;
     margin: 10px;
